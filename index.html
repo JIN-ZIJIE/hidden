@@ -1,2 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
 
-f
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lmao</title>
+
+  <style>
+    h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CODE/PACMAN--01</h1>
+  <pre>
+    &lt;!-- DISCLAIMER --&gt;
+    &lt;!-- THE FOLLOWING CODE IS NOT RECOMMENDED FOR YOUR INFOCOMM ASSIGNMENT --&gt;
+    &lt;!-- THE FOLLOWING CODE USES THE ::before AND ::after PESUDO CLASSES --&gt;
+    
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    
+    &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+      &lt;title&gt;Shape&lt;/title&gt;
+      &lt;style&gt;
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        html {
+          position: relative;
+          font-family: sans-serif;
+        }
+        
+        .body {
+          margin-top: 50px;
+          margin-left: 50px;
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          border-style: solid;
+          border-width: 100px;
+          border-color: transparent;
+          border-bottom-color: red;
+          border-left-color: red;
+          border-top-color: red;
+        }
+    
+        .body::before {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: blue;
+          top: 80px;
+          left: 145px;
+        }
+    
+        .body::after {
+          content: 'NAME';
+          display: inline-block;
+          transform: rotate(-90deg);
+          color: black;
+          position: absolute;
+          top: 130px;
+          left: 165px;
+          font-size: 32px;
+        }
+      &lt;/style&gt;
+    &lt;/head&gt;
+    
+    &lt;body&gt;
+      &lt;div class="body"&gt;&lt;/div&gt;
+    &lt;/body&gt;
+    
+    &lt;/html&gt;
+  </pre>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>CODE/PACMAN--02</h1>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;meta name="viewport" content="width=, initial-scale=1.0"&gt;
+        &lt;title&gt;PacMan&lt;/title&gt;
+        &lt;style&gt;
+          .body {
+            width: 0;
+            height: 0;
+            border: 200px solid red;
+            border-radius: 50%;
+            border-right-color: transparent;
+          }
+
+          .eye {
+            position: absolute;
+            top: 50px;
+            left: 170px;
+            width: 0;
+            height: 0;
+            border: 20px solid blue;
+            border-radius: 50%;
+          }
+
+          p {
+            font-size: 40px;
+            position: absolute;
+            transform: rotate(-90deg);
+            left: 240px;
+            top: 140px;
+          }
+        &lt;/style&gt;
+      &lt;/head&gt;
+
+      &lt;body&gt;
+        &lt;div class="body"&gt;
+        &lt;/div&gt;
+        &lt;div class="eye"&gt;&lt;/div&gt;
+        &lt;p&gt;XXX&lt;/p&gt;
+      &lt;/body&gt;
+
+    &lt;/html&gt;
+  </pre>
+  <br><br><br><br><br><br><br><br><br><br>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+
+    &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+      &lt;title&gt;Shape&lt;/title&gt;
+      &lt;style&gt;
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        html {
+          position: relative;
+          font-family: sans-serif;
+        }
+        
+        .body {
+          margin-top: 50px;
+          margin-left: 50px;
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          border-style: solid;
+          border-width: 100px;
+          border-color: transparent;
+          border-bottom-color: red;
+          border-left-color: red;
+          border-top-color: red;
+        }
+
+        .eye {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: blue;
+          top: 80px;
+          left: 145px;
+        }
+
+        .text {
+          display: inline-block;
+          transform: rotate(-90deg);
+          color: black;
+          position: absolute;
+          top: 130px;
+          left: 165px;
+          font-size: 32px;
+        }
+      &lt;/style&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+      &lt;div class="body"&gt;&lt;/div&gt;
+      &lt;div class="eye"&gt;&lt;/div&gt;
+      &lt;div class="text"&gt;XXX&lt;/div&gt;
+    &lt;/body&gt;
+
+    &lt;/html&gt;
+  </pre>
+</body>
+
+</html>
